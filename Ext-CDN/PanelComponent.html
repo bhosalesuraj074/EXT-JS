@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <link href="https://cdnjs.cloudflare.com/ajax/libs/extjs/6.0.0/classic/theme-classic/resources/theme-classic-all.css" rel="stylesheet" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/extjs/6.0.0/ext-all.js"></script>
+
+            <script>
+                Ext.onReady(function(){
+                    Ext.create('Ext.panel.Panel', {
+                        title :'Suraj panel',
+                        height :300,
+                        width :300,
+                        layout : 'vbox',
+                        items : [
+                            {xtype :'textfield', fieldLabel : 'Name'},
+                            {xtype :'numberfield', fieldLabel : 'Age'}
+                        ], 
+                        renderTo : Ext.getBody()
+                        
+                    });
+                });
+            </script>
+
+    </head>
+    <body>
+    </body>
+</html>

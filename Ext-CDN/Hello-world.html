@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <link href="https://cdnjs.cloudflare.com/ajax/libs/extjs/6.0.0/classic/theme-classic/resources/theme-classic-all.css" rel="stylesheet" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/extjs/6.0.0/ext-all.js"></script>
+            <script>
+                Ext.onReady(function(){
+                    Ext.create("Ext.panel.Panel",{
+                        title :'Hello Ext Js',
+                        width : 300, 
+                        height : 150,
+                        html : '<h3>Hello World</h3>',
+                        renderTo : Ext.getBody()
+                    });
+                });
+            </script>
+    </head>
+</html>

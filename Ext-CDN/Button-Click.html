@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <link href="https://cdnjs.cloudflare.com/ajax/libs/extjs/6.0.0/classic/theme-classic/resources/theme-classic-all.css" rel="stylesheet" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/extjs/6.0.0/ext-all.js"></script>
+
+            <script>
+                Ext.onReady(function(){
+                    Ext.create('Ext.button.Button',{
+                        text:'click me',
+                        renderTo:  Ext.getBody(),
+                        onClick : function(){
+                            alert("Button Clicked ...");
+                        }
+                    });
+                });
+
+            </script>
+    </head>
+    <body></body>
+</html>
